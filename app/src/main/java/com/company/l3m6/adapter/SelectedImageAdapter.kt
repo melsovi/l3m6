@@ -16,7 +16,7 @@ class SelectedImageAdapter : RecyclerView.Adapter<SelectedImageAdapter.ImageHold
     class ImageHolder(item: View) : RecyclerView.ViewHolder(item) {
         private val binding = ItemSelectedGalleryBinding.bind(item)
         fun bind(mainImage: Uri) = with(binding) {
-            imageSelectedRecycler.setImageURI(mainImage) 
+            imageSelectedRecycler.setImageURI(mainImage)
         }
     }
 
